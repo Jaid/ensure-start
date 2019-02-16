@@ -1,37 +1,37 @@
 /** @module ensure-start */
 
-import {isEqual, takeRight, slice} from "lodash"
+import {isEqual, take} from "lodash"
 
 /**
- * Prevents a string or an array from having a specified end
+ * Ensures that a string or an array starts with specified value
  * @example
- * import prevendEnd from "ensure-start"
- * ensureStart("abcd", "cd")
- * // "ab"
+ * import ensureStart from "ensure-start"
+ * ensureStart("cd", "ab")
+ * // "abcd"
  * @example
- * import prevendEnd from "ensure-start"
- * ensureStart(["ab", "c" "d"], ["c", "d"])
- * // ["ab"]
+ * import ensureStart from "ensure-start"
+ * ensureStart(["ab"], ["c", "d"])
+ * // ["c", "d", "ab"]
  * @function
- * @param {string|array} value String or array that should not end with specified value
- * @param {string|array} badEnd The unwanted end value
+ * @param {string|array} value String or array that should start with specified value
+ * @param {string|array} ensuredStart The wanted start value
  * @returns {*} Cleaned value
  */
-export default (value, badEnd) => {
+export default (value, ensuredStart) => {
   if (typeof value === "string") {
-    if (value.endsWith(badEnd)) {
-      return value.substr(0, value.length - badEnd.length)
+    if (value.startsWith(ensuredStart)) {
+      return value
     }
-    return value
+    return `${ensuredStart}${value}`
   }
-  if (Array.isArray(value, badEnd)) {
-    if (!Array.isArray(badEnd)) {
-      badEnd = [badEnd]
+  if (Array.isArray(value, ensuredStart)) {
+    if (!Array.isArray(ensuredStart)) {
+      ensuredStart = [ensuredStart]
     }
-    if (isEqual(takeRight(value, badEnd.length), badEnd)) {
-      return slice(value, 0, value.length - badEnd.length)
+    if (isEqual(take(value, ensuredStart.length), ensuredStart)) {
+      return value
     }
-    return value
+    return [...ensuredStart, ...value]
   }
   return value
 }
