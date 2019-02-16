@@ -24,7 +24,7 @@ export default (value, ensuredStart) => {
     }
     return `${ensuredStart}${value}`
   }
-  if (Array.isArray(value, ensuredStart)) {
+  if (Array.isArray(value)) {
     if (!Array.isArray(ensuredStart)) {
       ensuredStart = [ensuredStart]
     }
