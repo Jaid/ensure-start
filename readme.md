@@ -6,11 +6,11 @@ Ensures that a string or an array starts with specified value.
 ## Installation
 <a href='https://npmjs.com/package/ensure-start'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
 ```bash
-npm install --save ensure-start@^1.0.5
+npm install --save ensure-start@^1.0.6
 ```
 <a href='https://yarnpkg.com/package/ensure-start'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
 ```bash
-yarn add ensure-start@^1.0.5
+yarn add ensure-start@^1.0.6
 ```
 
 
@@ -21,7 +21,7 @@ Open a browser's JavaScript console and execute:
 ```javascript
 const scriptElement = document.createElement("script");
 scriptElement.setAttribute("type","text/javascript");
-scriptElement.setAttribute("src","https://unpkg.com/ensure-start@1.0.5");
+scriptElement.setAttribute("src","https://unpkg.com/ensure-start@1.0.6");
 document.querySelector("head").appendChild(scriptElement);
 ```
 
