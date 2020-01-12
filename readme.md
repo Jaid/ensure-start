@@ -36,24 +36,6 @@ yarn add ensure-start@^1.0.6
 ```
 
 
-## Try it out
-
-
-
-Open a browser's JavaScript console and execute:
-
-```javascript
-const scriptElement = document.createElement("script");
-scriptElement.setAttribute("type", "text/javascript");
-scriptElement.setAttribute("src", "https://cdn.jsdelivr.net/npm/ensure-start@1.0.6/index.js");
-document.querySelector("head").appendChild(scriptElement);
-```
-
-ensure-start is now stored in the global variable `ensureStart`. The following console expression should return something other than `"undefined"`.
-
-```javascript
-typeof ensureStart.default
-```
 
 
 
