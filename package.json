@@ -32,5 +32,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "ensure-start",
-  "description": "Ensures that a string or an array starts with specified value."
+  "description": "Ensures that a string or an array starts with specified value.",
+  "funding": "https://github.com/sponsors/jaid"
 }
