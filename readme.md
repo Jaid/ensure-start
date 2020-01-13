@@ -1,9 +1,9 @@
 # ensure-start
 
 
-<a href="https://raw.githubusercontent.com/Jaid/ensure-start/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/ensure-start?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/ensure-start/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fensure-start%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/ensure-start/commits"><img src="https://img.shields.io/github/commits-since/Jaid/ensure-start/v1.0.6?style=flat-square&logo=github" alt="Commits since v1.0.6"/></a> <a href="https://github.com/Jaid/ensure-start/commits"><img src="https://img.shields.io/github/last-commit/Jaid/ensure-start?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/ensure-start/issues"><img src="https://img.shields.io/github/issues/Jaid/ensure-start?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/ensure-start"><img src="https://img.shields.io/npm/v/ensure-start?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/ensure-start/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/ensure-start?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/ensure-start"><img src="https://img.shields.io/npm/dm/ensure-start?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/ensure-start/master/license.txt"><img src="https://img.shields.io/github/license/jaid/ensure-start?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor ensure-start"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/ensure-start/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Fensure-start%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/ensure-start/commits"><img src="https://img.shields.io/github/commits-since/jaid/ensure-start/v1.0.6?style=flat-square&logo=github" alt="Commits since v1.0.6"/></a> <a href="https://github.com/jaid/ensure-start/commits"><img src="https://img.shields.io/github/last-commit/jaid/ensure-start?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/ensure-start/issues"><img src="https://img.shields.io/github/issues/jaid/ensure-start?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/ensure-start"><img src="https://img.shields.io/npm/v/ensure-start?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/ensure-start/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/ensure-start?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/ensure-start"><img src="https://img.shields.io/npm/dm/ensure-start?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Ensures that a string or an array starts with specified value.**
 
@@ -41,14 +41,13 @@ yarn add ensure-start@^1.0.6
 
 
 
-
 ## Development
 
 
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/ensure-start.git
+git clone git@github.com:jaid/ensure-start.git
 cd ensure-start
 npm install
 ```
