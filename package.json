@@ -37,5 +37,19 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jaid/ensure-start"
-  }
+  },
+  "homepage": "https://github.com/Jaid/ensure-start",
+  "keywords": [
+    "array",
+    "ensure",
+    "lodash",
+    "prefix",
+    "prevent",
+    "start",
+    "starting",
+    "startswith",
+    "string",
+    "util",
+    "utility"
+  ]
 }
